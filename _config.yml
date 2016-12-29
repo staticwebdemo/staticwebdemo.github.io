@@ -1,0 +1,29 @@
+title: Jekyll
+timezone: UTC
+permalink: pretty
+langs:
+  - 
+    name: Castellano
+    code: es
+  - 
+    name: English
+    code: en
+gems:
+  - jekyll-sitemap
+
+template: default
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      type: "post"
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: "page"

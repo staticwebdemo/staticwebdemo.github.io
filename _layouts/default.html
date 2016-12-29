@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		{{ site.data.translations.pages[page.type][page.lang].title | default: site.title }}
+	</title>
+
+	{% for current in site.langs %}
+		<link rel="alternate" hreflang="{{ current.code }}" href="{{ page.url | absolute_url }}">
+	{% endfor %}
+
+	{% if page.type == 'home' %}
+		<link rel="alternate" hreflang="x-default" href="{{ site.baseurl | absolute_url }}">
+	{% else %}
+		<link rel="alternate" hreflang="x-default" href="{{ site.baseurl | absolute_url }}{{ page.type }}">
+	{% endif %}
+
+	<link rel="stylesheet" href="{{ '/assets/app.css' | absolute_url }}">
+</head>
+<body>
+	{{ content }}
+</body>
+</html>

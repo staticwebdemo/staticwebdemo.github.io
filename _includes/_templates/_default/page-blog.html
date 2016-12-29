@@ -1,0 +1,11 @@
+<ul>
+	{% for current in site.posts %}
+		{% if current.lang == page.lang %}
+			<li>
+				<a href="{{ current.url | absolute_url }}">
+					{{ current.title }}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

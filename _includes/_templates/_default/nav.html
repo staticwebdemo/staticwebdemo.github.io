@@ -1,0 +1,33 @@
+<nav>
+	<ul>
+		{% for current in site.langs %}
+			<li>
+				{% if page.type == 'home' %}
+					<a href="{{ site.baseurl | absolute_url }}{{ current.code }}">
+						{{ current.name }} ({{ current.code }})
+					</a>
+				{% elsif page.type == 'post' %}
+					<a href="{{ site.baseurl | absolute_url }}blog/{{ current.code }}">
+						{{ current.name }} ({{ current.code }})
+					</a>
+				{% else %}
+					<a href="{{ site.baseurl | absolute_url }}{{ page.type }}/{{ current.code }}">
+						{{ current.name }} ({{ current.code }})
+					</a>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+
+	<ul>
+		{% for current in site.pages %}
+			{% if current.is-default %}
+				<li>
+					<a href="{{ current.url | absolute_url }}{{ page.lang }}">
+						{{ current.type }}
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</nav>
