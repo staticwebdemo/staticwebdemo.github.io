@@ -1,3 +1,5 @@
-title: English Blog
-header: Blog
-description: Example of a multilingual blog
+metadata:
+  title: English Blog
+  description: Example of a multilingual blog
+texts:
+  header: Blog

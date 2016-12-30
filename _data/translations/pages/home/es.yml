@@ -1,3 +1,10 @@
-title: Título en Castellano
-header: Jekyll en Castellano
-description: Web multi idioma con Jekyll
+metadata:
+  title: Título en Castellano
+  description: Web multi idioma con Jekyll
+texts:
+  header: Jekyll en Castellano
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?
+  whatever: texto random
+images:
+  hero: lake.jpg
+  whatever: lake.jpg

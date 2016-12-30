@@ -1,3 +1,9 @@
 <p>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?
+	{{ site.data.translations.pages[page.type][page.lang].texts.subtitle }}
 </p>
+
+<p>
+	{{ site.data.translations.pages[page.type][page.lang].texts.whatever }}
+</p>
+
+<img style="max-width: 100%" src="{{ site.baseurl | absolute_url }}assets/img/{{ site.data.translations.pages[page.type][page.lang].images.hero }}" alt="">
