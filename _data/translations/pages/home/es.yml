@@ -1,10 +1,10 @@
 metadata:
-  title: Título en Castellano
-  description: Web multi idioma con Jekyll
+    title: 'Título en Castellano'
+    description: 'Web multi idioma con Jekyll'
 texts:
-  header: Jekyll en Castellano
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?
-  whatever: texto random
+    header: 'Jekyll en Castellano'
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?'
+    whatever: 'texto random<strong> should be uploaded to git</strong>'
 images:
-  hero: lake.jpg
-  whatever: lake.jpg
+    hero: lake.jpg
+    whatever: lake.jpg
