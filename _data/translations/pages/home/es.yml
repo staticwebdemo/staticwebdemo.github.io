@@ -4,7 +4,7 @@ metadata:
 texts:
     header: 'Jekyll en Castellano'
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?'
-    whatever: 'texto random<strong>&nbsp;should be updated on git</strong>'
+    whatever: 'texto random<strong>&nbsp;should be updated on git by the correct user&nbsp;</strong>'
 images:
     hero: lake.jpg
     whatever: lake.jpg
