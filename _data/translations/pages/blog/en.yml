@@ -1,5 +1,8 @@
 metadata:
-  title: English Blog
-  description: Example of a multilingual blog
+    title: 'English Blog'
+    description: 'Example of a multilingual blog'
 texts:
-  header: Blog
+    header: 'Blog header'
+images:
+    hero: lake.jpg
+    whatever: lake.jpg
