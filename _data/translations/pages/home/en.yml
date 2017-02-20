@@ -1,10 +1,10 @@
 metadata:
-  title: English title
-  description: Example of a multilingual jekyll site
+    title: 'English title'
+    description: 'Example of a multilingual jekyll site'
 texts:
-  header: Jekyll in English
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?
-  whatever: random text
+    header: 'Jekyll in English'
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis animi repellat vero sunt ullam consequatur quaerat. Earum blanditiis ab incidunt harum facilis, quo ut praesentium quam asperiores quis accusantium?'
+    whatever: 'random text'
 images:
-  hero: lake.jpg
-  whatever: lake.jpg
+    hero: lake.jpg
+    whatever: lake.jpg
