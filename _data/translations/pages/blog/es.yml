@@ -2,7 +2,7 @@ metadata:
     title: 'Blog en Castellano'
     description: 'Blog multi idioma con Jekyll'
 texts:
-    header: '<strong>Blog</strong>'
+    header: 'Nuestro Blog'
 images:
     hero: lake.jpg
     whatever: lake.jpg
