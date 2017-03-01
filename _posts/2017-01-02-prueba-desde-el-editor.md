@@ -4,7 +4,7 @@ description: 'Prueba desde el editor'
 lang: es
 image: lake.jpg
 ---
-**Texto de prueba, desde el editor**
+**Texto de prueba, desde el editor 2**
 
 _Vivamus elementum_ semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
 
