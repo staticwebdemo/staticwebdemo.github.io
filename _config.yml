@@ -4,31 +4,15 @@ lang:
     name: Castellano
     code: es
 social:
-    facebook: https://www.facebook.com/seedocare/
-    twitter: https://twitter.com/seedocare/
-    linkedin: https://www.linkedin.com/company/seedocare-com/
+    facebook: 'https://www.facebook.com/seedocare/'
+    twitter: 'https://twitter.com/seedocare/'
+    linkedin: 'https://www.linkedin.com/company/seedocare-com/'
 langs:
-  - 
-    name: Castellano
-    code: es
-  - 
-    name: English
-    code: en
+    - { name: Castellano, code: es }
+    - { name: English, code: en }
 gems:
-  - jekyll-sitemap
+    - jekyll-sitemap
 template: default
 defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      type: "post"
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: "page"
-      lang: "es"
+    - { scope: { path: '', type: posts }, values: { type: post, layout: post } }
+    - { scope: { path: '', type: pages }, values: { layout: page, lang: es } }
