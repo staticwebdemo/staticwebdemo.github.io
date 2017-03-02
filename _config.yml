@@ -3,7 +3,10 @@ permalink: pretty
 lang:
     name: Castellano
     code: es
-
+social:
+    facebook: https://www.facebook.com/seedocare/
+    twitter: https://twitter.com/seedocare/
+    linkedin: https://www.linkedin.com/company/seedocare-com/
 langs:
   - 
     name: Castellano
@@ -13,9 +16,7 @@ langs:
     code: en
 gems:
   - jekyll-sitemap
-
 template: default
-
 defaults:
   -
     scope:
