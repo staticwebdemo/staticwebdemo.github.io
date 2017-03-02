@@ -5,7 +5,7 @@
 	<title>
 		{{ site.data.translations.pages[page.type][page.lang].title | default: site.data.translations.metadata[page.lang].title }}
 	</title>
-	<meta name="description" content="{{ {{ site.data.translations.pages[page.type][page.lang].description | default: site.data.translations.metadata[page.lang].description }} }}">
+	<meta name="description" content="{{ site.data.translations.pages[page.type][page.lang].description | default: site.data.translations.metadata[page.lang].description }}">
 
 	{% for current in site.langs %}
 		<link rel="alternate" hreflang="{{ current.code }}" href="{{ page.url | absolute_url }}">
