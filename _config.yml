@@ -6,6 +6,7 @@ lang:
 social:
     facebook: 'https://www.facebook.com/seedocare/'
     linkedin: 'https://www.linkedin.com/company/seedocare-com/'
+    twitter: 'https://twitter.com/seedocare/'
 langs:
     - { name: Castellano, code: es }
     - { name: English, code: en }
